@@ -1,8 +1,11 @@
 .ceva
   nav
-    ul
+    ul.nav.nav-pills.float-xs-right
       each linkMenu in site.data.content["top-menu"]
-        li
-          a(href="#{linkMenu.href}") #{linkMenu.text}
+        li.nav-item
+          if currentPage === linkMenu.href
+            a.nav-link.active(href="#{linkMenu.href}") #{linkMenu.text}
+          else
+            a.nav-link(href="#{linkMenu.href}") #{linkMenu.text}
 
   h3 Assignment 1
