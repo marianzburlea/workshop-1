@@ -17,6 +17,7 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
       // Jade Templates
       gulp.watch([
         path.join(dirs.source, '**/*.jade'),
+        path.join(dirs.source, dirs.modules, '**/*.jade'),
         path.join(dirs.source, dirs.data, '**/*.{json,yaml,yml}')
       ], ['jade']);
 
