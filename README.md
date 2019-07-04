@@ -1,5 +1,7 @@
 # Workshop-1 readme
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marianzburlea/workshop-1.svg)](https://greenkeeper.io/)
+
 Generated on 2016-12-11 using
 [generator-yeogurt@1.5.3](https://github.com/larsonjj/generator-yeogurt)
 
